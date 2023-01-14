@@ -1,0 +1,234 @@
+:root {
+    --title-text-color: #2E2F42;
+    --paragraph-text-color: #434455;
+
+
+}
+
+body {
+    color: var(--title-text-color);
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    
+    
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.list {
+    list-style: none;
+}
+/* logo */
+.logo {
+    color: #2E2F42;
+    font-family: Raleway, cursive;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+}
+.logo:hover, 
+.logo:focus {
+    color: #4D5AE5;
+}
+.logo1 {
+    color: #4D5AE5;
+}
+.logo-f {
+    color: #F4F4FD;
+}
+.logo-f:hover,
+.logo-f:focus {
+    color: #4D5AE5;
+}
+
+/* site nav */
+
+.site-link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    }
+
+
+
+.site-link:hover, 
+.site-link:focus {
+    color: #4D5AE5;
+
+}
+.current {
+    color: #404BBF;
+}
+
+/* contacs nav */
+
+.con-nav .contacs {
+ 
+    color: var(--paragraph-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    
+}
+.contacs:hover,
+.contacs:focus {
+    color: #4D5AE5;
+
+}
+
+/* section hero */
+
+.hero {
+    background-color: var(--title-text-color);
+text-align: center;
+}
+
+
+.hero-title {
+ 
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.servise-button {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    
+   }
+.servise-button:hover,
+.servise-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    
+}
+
+   
+
+
+/* section about us */
+#hidden {
+    visibility: hidden;
+}
+
+.section-priveleges {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+}
+
+.section-title {
+    color: var(--paragraph-text-color);
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+/* What are we doing */
+
+.responsibilities-title {
+    color: rgba(00, 00, 00, 0.75);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* Team */
+
+.team {
+    background-color: #F4F4FD;
+}
+.second-title {
+    color: var(--totle-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.paragraph-title {
+color: var(--paragraph-text-color);
+line-height: 1.5;
+font-size: 16px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: var(--title-text-color);
+}
+.footer-title {
+    color: #E7E9FC;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+/* portfolio html */
+
+
+
+.button-ul {
+    font-family: Roboto, sans-serif;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #F4F4FD;
+}
+
+
+
+.button-ul:hover,
+.button-ul:focus {
+    color: #fff;
+    background-color: #404BBF;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.servises {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
