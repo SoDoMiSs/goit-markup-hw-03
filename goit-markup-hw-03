@@ -141,8 +141,7 @@ header {
 
 .header-logo {
 display: flex;
-width: 115px;
-margin-right: 76px;
+
 }
 
 .logo {
