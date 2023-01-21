@@ -192,7 +192,9 @@ margin-right: 77px;
 
 .hero {
     background-color: var(--title-text-color);
-text-align: center;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
 }
 
@@ -236,15 +238,6 @@ text-align: center;
     background-color: var(--hover-color);
     
 }
-
-   /* ---------hero nav--------- */
-
-   .hero-container {
-    align-items: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
-   }
-
 
 
 /*-------------- section about us----------- */
